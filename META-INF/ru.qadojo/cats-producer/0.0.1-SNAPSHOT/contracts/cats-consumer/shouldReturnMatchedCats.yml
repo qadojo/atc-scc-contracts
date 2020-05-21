@@ -10,8 +10,8 @@ response:
         Content-Type: application/json
     body:
         cats:
-            - name: string
-              id: number
+            - name: Puppet
+              id: 123
     matchers:
         headers:
             - key: Content-Type
