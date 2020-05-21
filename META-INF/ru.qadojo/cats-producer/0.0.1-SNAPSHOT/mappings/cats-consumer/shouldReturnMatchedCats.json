@@ -1,14 +1,14 @@
 {
-  "id" : "658620b9-c2e0-487f-879a-151a0b7d1c9e",
+  "id" : "4f6b248a-26d4-4364-b7f8-e3aa6b8cf2f4",
   "request" : {
     "urlPath" : "/cats",
     "method" : "GET",
     "queryParameters" : {
       "breed" : {
-        "equalTo" : "string"
+        "equalTo" : "bengal"
       },
       "gender" : {
-        "equalTo" : "string"
+        "equalTo" : "MALE"
       }
     }
   },
@@ -17,5 +17,5 @@
     "body" : "{\"cats\":[{\"name\":\"string\",\"id\":\"number\"}]}",
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "658620b9-c2e0-487f-879a-151a0b7d1c9e"
+  "uuid" : "4f6b248a-26d4-4364-b7f8-e3aa6b8cf2f4"
 }
