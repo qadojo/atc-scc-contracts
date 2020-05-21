@@ -4,12 +4,6 @@ request:
     queryParameters:
         breed: string
         gender: string
-    matchers:
-        queryParameters:
-            - key: breed
-              type: by_type
-            - key: gender
-              type: by_type
 response:
     status: 200
     body:
