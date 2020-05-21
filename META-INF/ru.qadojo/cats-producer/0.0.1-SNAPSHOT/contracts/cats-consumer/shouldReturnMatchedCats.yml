@@ -13,6 +13,9 @@ response:
             - name: string
               id: number
     matchers:
+        headers:
+            - key: Content-Type
+              regex: "application/json.*"
         body:
             - path: $.cats[0].name
               type: by_regex
