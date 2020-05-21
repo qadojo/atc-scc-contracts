@@ -1,5 +1,5 @@
 {
-  "id" : "ec87e969-20b3-4d31-ae79-280f70eec2ae",
+  "id" : "97c32436-d5ce-444b-ac88-b40095c1c80e",
   "request" : {
     "urlPath" : "/cats",
     "method" : "GET",
@@ -14,11 +14,11 @@
   },
   "response" : {
     "status" : 200,
-    "body" : "{\"cats\":[{\"name\":\"string\",\"id\":\"number\"}]}",
+    "body" : "{\"cats\":[{\"name\":\"Puppet\",\"id\":123}]}",
     "headers" : {
       "Content-Type" : "application/json"
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "ec87e969-20b3-4d31-ae79-280f70eec2ae"
+  "uuid" : "97c32436-d5ce-444b-ac88-b40095c1c80e"
 }
