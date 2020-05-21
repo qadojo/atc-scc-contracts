@@ -12,7 +12,7 @@ response:
               id: integer
     matchers:
         body:
-            - path: $.cats[].name
+            - path: $.cats[0].name
               type: by_type
-            - path: $.cats[].id
+            - path: $.cats[0].id
               type: by_type
