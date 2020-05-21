@@ -2,8 +2,8 @@ request:
     method: GET
     url: /cats
     queryParameters:
-        breed: string
-        gender: string
+        breed: bengal
+        gender: MALE
 response:
     status: 200
     body:
