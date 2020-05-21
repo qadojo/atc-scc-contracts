@@ -13,6 +13,8 @@ response:
     matchers:
         body:
             - path: $.cats[0].name
-              type: by_type
+              type: by_regex
+              predefined: number
             - path: $.cats[0].id
-              type: by_type
+              type: by_regex
+              predefined: number
