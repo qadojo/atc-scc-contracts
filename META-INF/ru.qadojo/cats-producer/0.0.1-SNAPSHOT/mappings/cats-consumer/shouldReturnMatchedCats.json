@@ -1,5 +1,5 @@
 {
-  "id" : "4f6b248a-26d4-4364-b7f8-e3aa6b8cf2f4",
+  "id" : "ec87e969-20b3-4d31-ae79-280f70eec2ae",
   "request" : {
     "urlPath" : "/cats",
     "method" : "GET",
@@ -15,7 +15,10 @@
   "response" : {
     "status" : 200,
     "body" : "{\"cats\":[{\"name\":\"string\",\"id\":\"number\"}]}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "4f6b248a-26d4-4364-b7f8-e3aa6b8cf2f4"
+  "uuid" : "ec87e969-20b3-4d31-ae79-280f70eec2ae"
 }
