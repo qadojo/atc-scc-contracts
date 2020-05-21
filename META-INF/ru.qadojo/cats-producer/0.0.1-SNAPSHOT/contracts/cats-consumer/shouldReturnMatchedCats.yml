@@ -8,5 +8,11 @@ response:
     status: 200
     body:
         cats:
-            - name: one
-              id: 123
+            - name: string
+              id: integer
+    matchers:
+        body:
+            - path: $.cats[].name
+              type: by_type
+            - path: $.cats[].id
+              type: by_type
