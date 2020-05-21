@@ -14,7 +14,7 @@ response:
         body:
             - path: $.cats[0].name
               type: by_regex
-              predefined: number
+              predefined: only_alpha_unicode
             - path: $.cats[0].id
               type: by_regex
               predefined: number
