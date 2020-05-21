@@ -9,7 +9,7 @@ response:
     body:
         cats:
             - name: string
-              id: integer
+              id: number
     matchers:
         body:
             - path: $.cats[0].name
