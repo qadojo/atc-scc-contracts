@@ -6,6 +6,8 @@ request:
         gender: MALE
 response:
     status: 200
+    headers:
+        Content-Type: application/json
     body:
         cats:
             - name: string
