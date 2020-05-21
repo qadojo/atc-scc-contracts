@@ -1,0 +1,21 @@
+{
+  "id" : "658620b9-c2e0-487f-879a-151a0b7d1c9e",
+  "request" : {
+    "urlPath" : "/cats",
+    "method" : "GET",
+    "queryParameters" : {
+      "breed" : {
+        "equalTo" : "string"
+      },
+      "gender" : {
+        "equalTo" : "string"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"cats\":[{\"name\":\"string\",\"id\":\"number\"}]}",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "658620b9-c2e0-487f-879a-151a0b7d1c9e"
+}
