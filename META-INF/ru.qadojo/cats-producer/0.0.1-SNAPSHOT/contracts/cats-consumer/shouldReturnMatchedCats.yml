@@ -7,8 +7,6 @@ request:
 response:
     status: 200
     body:
-        cats: string
-    matchers:
-        body:
-            - path: $.cats
-              type: by_type
+        cats:
+            - name: one
+              id: 123
